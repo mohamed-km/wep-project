@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Wassim Profile</title>
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    /* General styles */
+    body {
+      background-image: url(20250414_000407_0000.png);
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; /* Ensures the image covers the entire background */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Ensure the body takes up the full viewport height */
+    }
+
+    .wrapper {
+      background-position: center center;
+      background-attachment: scroll;
+    }
+
+    header {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto; /* Adjusted height to fit content */
+      margin: 20px auto; /* Added margin to the header */
+      width: 100%;
+    }
+
+    nav {
+      margin: 10px 0; /* Add vertical margin to the navigation bar */
+    }
+
+    .nav-items {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav-items li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 5px 15px;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .nav-items a:hover {
+      color: cyan;
+    }
+
+    /* Centered circular image and name container */
+    .image-container {
+      display: flex;
+      flex-direction: column; /* Stack image and name vertically */
+      justify-content: center;
+      align-items: center;
+      height: calc(50vh - 60px); /* Adjusted height to fit CV content */
+    }
+
+    .circular-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white; /* Add a white border for better visibility */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+      transition: transform 0.7s ease-in-out, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
+    }
+
+    /* Hover effect for the circular image */
+    .circular-image:hover {
+      transform: scale(1.4); /* Enlarge the image by 20% on hover */
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Increase shadow size for depth */
+    }
+
+    #name {
+      margin-top: 35px; /* Add some spacing between the image and name */
+      font-size: 40px;
+      font-weight: bold;
+      color: white;
+      transition: all 0.5s ease-in-out; /* Smooth transition for hover effects */
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    }
+
+    /* Hover effect for the name */
+    #name:hover {
+      
+      transform: scale(1); 
+      text-shadow: 0 5px 15px rgba(0, 255, 255, 0.8); /* Brighter glow-like shadow */
+      letter-spacing: 2px; /* Add spacing between letters for emphasis */
+    }
+
+    /* Main Content Styling */
+    .main-content {
+      flex: 1; /* Push the footer to the bottom */
+      padding: 20px;
+    }
+
+    /* CV Content Styling */
+    .cv-content {
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .cv-content h2 {
+      color: #004d4d; /* Dark teal color */
+      margin-bottom: 10px;
+    }
+
+    .cv-content p {
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .cv-content ul {
+      padding-left: 20px;
+      color: #333;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #004d4d; /* Dark teal color */
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      width: 100%;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 20px;
+      transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+    }
+
+    footer a:hover {
+      color: #00ffff; /* Cyan color on hover */
+      transform: scale(1.2); /* Slightly enlarge the icon on hover */
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="wrapper">
+    <header>
+      <nav>
+        <ul class="nav-items">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Engineer">Engineer</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Centered circular image and name -->
+    <div class="image-container">
+      <img 
+        src="Screenshot 2025-04-14 175822.png" 
+        alt="Circular Image" 
+        class="circular-image"
+      >
+      <h1 id="name">Omar Wassim</h1>
+    </div>
+
+    <!-- CV Content -->
+    <div class="cv-content">
+      <h2>About Me</h2>
+      <p>
+        I’m a third-year Intelligent Systems Engineering student passionate about problem-solving, leadership, and innovation. As a Problem-Solving Instructor at Pixels.org and a Scouts Team Leader, I thrive on enhancing skills, fostering growth, and creating collaborative environments.
+      </p>
+      <p>
+        My expertise spans cybersecurity, front-end and back-end development, and programming in languages like C++, JavaScript, Python, and Java. With a deep interest in ethical hacking and cybersecurity, I aspire to become a Red Teamer, specializing in penetration testing and advanced cyber defense strategies.
+      </p>
+      <p>
+        Fluent in Arabic, French, and English, I bring a multicultural perspective to teamwork and problem-solving.
+      </p>
+
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Intelligent Systems Engineering</strong> - Helwan University (2022 – Present)</li>
+        <li><strong>Secondary Education</strong> - Collège De La Salle (2008 – 2022)</li>
+      </ul>
+
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming Languages: Java, Python, C++, JavaScript</li>
+        <li>Web Development: WAMP, Front-End/Back-End Development</li>
+        <li>Databases: PostgreSQL</li>
+        <li>Cybersecurity: Ethical Hacking, Penetration Testing (Aspirational Red Teamer)</li>
+        <li>Operating Systems: Linux Administration</li>
+      </ul>
+
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Instructor</strong>, Pixels Egypt Org. (October 2024 – Present)
+          <ul>
+            <li>Delivered engaging lessons on C++ problem-solving, enhancing students’ logical thinking and coding skills.</li>
+            <li>Fostered a collaborative learning environment by promoting teamwork, safety, and best practices.</li>
+            <li>Increased student participation through interactive lectures, hands-on assignments, and real-world coding challenges.</li>
+          </ul>
+        </li>
+        <li><strong>Scouts Team Leader</strong>
+          <ul>
+            <li>Led a team of scouts, organizing events, fostering collaboration, and promoting personal growth.</li>
+            <li>Developed leadership and communication skills while mentoring team members to achieve shared goals.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h2>Certifications</h2>
+      <ul>
+        <li>HCIA Certification (Huawei Certified ICT Associate)</li>
+        <li>NTI Trainee Certificate (National Telecom Institute)</li>
+      </ul>
+
+      
+    </div>
+  </div>
+
+  <!-- Footer with Social Media Links -->
+  <footer>
+    <p>Connect with me:</p>
+    <div>
+      <!-- LinkedIn Icon -->
+      <a href="https://www.linkedin.com/in/omar-wassim-b34b192ba" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <!-- GitHub Icon -->
+      <a href="https://github.com/omarwassim" target="_blank">
+        <i class="fab fa-github-alt"></i> <!-- Updated to "GitHub Alt" for a cooler look -->
+      </a>
+      <!-- Email Icon -->
+      <a href="mailto:omarwassim05@gmail.com">
+        <i class="fas fa-envelope-open-text"></i> <!-- Updated to "Envelope Open Text" for a modern look -->
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
